@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SSetupData>
+  <deviceName>dlc_lspdpack</deviceName>
+  <datFile>content.xml</datFile>
+  <timeStamp>30/09/2016 12:00:00</timeStamp>
+  <nameHash>lspdpack</nameHash>
+  <contentChangeSetGroups>
+    <Item>
+      <NameHash>GROUP_STARTUP</NameHash>
+      <ContentChangeSets>
+		<Item>LSPDPACK_AUTOGEN</Item>
+	  </ContentChangeSets>
+    </Item>
+	<Item>
+	  <NameHash>GROUP_ON_DEMAND</NameHash>
+	  <ContentChangeSets />
+	</Item>
+  </contentChangeSetGroups>
+  <type>EXTRACONTENT_COMPAT_PACK</type>
+  <order value="9999" />  
+</SSetupData>

@@ -1,0 +1,48 @@
+<html>
+    <head>
+	    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	    <script src="character.js" type="text/javascript"></script>
+	    <link href="character.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+		<img id="cursor" src="cursor.png" />
+
+		<div class="container">
+			<div class="header">
+				<h1>Welcome to The Modest Land, Please select your character.</h1>
+			</div>
+			<div class="notification">You don't appear to have any characters please make one.</div>
+			<div class="body">
+				<div class="section characters">
+					<div class="character" id="new">
+						<div class="new">+</div>
+						<h4>Create New</h4>
+					</div>
+				</div>
+				<div class="section create">
+					<div class="form-item">
+						<label for="first_name">First Name</label>
+						<input type="text" name="first_name" id="first_name" maxlength="50"/>
+					</div>
+					<div class="form-item">
+						<label for="last_name">Last Name</label>
+						<input type="text" name="last_name" id="last_name" maxlength="50"/>
+					</div>
+					<div class="form-item">
+						<label for="gender">Gender</label>
+						<div class="option">
+							<p id="male" class="selected">Male</p>
+							<p id="female">Female</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<a href="http://themodestland/list"><button class="disconnect">Back to Characters</button></a>
+				<a href="http://themodestland/disconnect"><button class="disconnect">Disconnect</button></a>
+				<button id="birth">Create Character</button>
+				<button id="select" class="disabled">Select Character</button>
+			</div>
+		</div>
+    </body>
+</html>
